@@ -1,0 +1,19 @@
+public class AusgabeDatum
+{
+        public AusgabeDatum()
+        {  
+            int tag = 28;
+            String monat = "Mai";
+            int jahr = 2035;
+            double uhrzeit = 10.25;
+            
+            System.out.println(tag);
+            System.out.println("Monat: "+monat);
+            System.out.println("heutiges Datum:"+tag+monat+" "+jahr);
+            System.out.println("Jetzt auch mit Punkt:"+tag+"."+monat+" "+jahr);
+            System.out.println("Uhrzeit:"+uhrzeit);
+            
+        
+            
+        }
+}
