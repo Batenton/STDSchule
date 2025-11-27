@@ -5,9 +5,9 @@ public class Branches{
     public static void main(String args[])
     {
         Scanner meinScanner = new Scanner(System.in);
-        int Alter = meinScanner.nextInt();
+        int alter = meinScanner.nextInt();
         int bier = 0;
-        if(Alter >= 16){
+        if(alter >= 16){
             bier++;
         System.out.println("Bier ausschenken");;
         }
