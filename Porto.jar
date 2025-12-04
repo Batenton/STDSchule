@@ -1,1 +1,27 @@
-
+import java.util.Scanner;
+public class Porto{
+    public static void main(String[] argv){
+        double preis;
+        int gewicht;
+        Scanner meinScanner = new Scanner(System.in);
+        gewicht = meinScanner.nextInt();
+        if(gewicht <= 20){
+            preis = 0.95;
+            System.out.println(preis + "€");
+        }
+        else if(gewicht <= 50){
+            preis = 1.10;
+            System.out.println(preis + "€");
+        }
+        else if (gewicht <= 500){
+            preis = 1.80;
+            System.out.println(preis + "€");
+        }
+        else if (gewicht <= 1000){
+            preis = 2.90;
+            System.out.println(preis + "€");
+        }
+        else{ System.out.println("Fehler");
+        }
+    }
+}
